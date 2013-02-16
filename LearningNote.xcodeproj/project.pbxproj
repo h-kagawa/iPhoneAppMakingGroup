@@ -17,7 +17,12 @@
 		296A3AEC16CFC7E2009BEAB1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 296A3AEB16CFC7E2009BEAB1 /* Default@2x.png */; };
 		296A3AEE16CFC7E2009BEAB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 296A3AED16CFC7E2009BEAB1 /* Default-568h@2x.png */; };
 		296A3AF116CFC7E2009BEAB1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296A3AEF16CFC7E2009BEAB1 /* MainStoryboard.storyboard */; };
-		296A3AF416CFC7E2009BEAB1 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296A3AF316CFC7E2009BEAB1 /* LearningViewController.m */; };
+		296A3AFC16CFCE9E009BEAB1 /* LearningTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296A3AFB16CFCE9E009BEAB1 /* LearningTableViewController.m */; };
+		296A3AFF16CFE984009BEAB1 /* LearningBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296A3AFE16CFE984009BEAB1 /* LearningBooksViewController.m */; };
+		296A3B0116CFEF56009BEAB1 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 296A3B0016CFEF56009BEAB1 /* globe@2x.png */; };
+		296A3B0316CFEF77009BEAB1 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 296A3B0216CFEF77009BEAB1 /* globe.png */; };
+		296A3B0516CFF0DC009BEAB1 /* page_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 296A3B0416CFF0DC009BEAB1 /* page_empty@2x.png */; };
+		296A3B0716CFF0F6009BEAB1 /* page_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 296A3B0616CFF0F6009BEAB1 /* page_empty.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +40,14 @@
 		296A3AEB16CFC7E2009BEAB1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		296A3AED16CFC7E2009BEAB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		296A3AF016CFC7E2009BEAB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		296A3AF216CFC7E2009BEAB1 /* LearningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningViewController.h; sourceTree = "<group>"; };
-		296A3AF316CFC7E2009BEAB1 /* LearningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
+		296A3AFA16CFCE9E009BEAB1 /* LearningTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningTableViewController.h; sourceTree = "<group>"; };
+		296A3AFB16CFCE9E009BEAB1 /* LearningTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningTableViewController.m; sourceTree = "<group>"; };
+		296A3AFD16CFE984009BEAB1 /* LearningBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningBooksViewController.h; sourceTree = "<group>"; };
+		296A3AFE16CFE984009BEAB1 /* LearningBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningBooksViewController.m; sourceTree = "<group>"; };
+		296A3B0016CFEF56009BEAB1 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		296A3B0216CFEF77009BEAB1 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		296A3B0416CFF0DC009BEAB1 /* page_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_empty@2x.png"; sourceTree = "<group>"; };
+		296A3B0616CFF0F6009BEAB1 /* page_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_empty.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +97,11 @@
 				296A3AE616CFC7E2009BEAB1 /* LearningAppDelegate.h */,
 				296A3AE716CFC7E2009BEAB1 /* LearningAppDelegate.m */,
 				296A3AEF16CFC7E2009BEAB1 /* MainStoryboard.storyboard */,
-				296A3AF216CFC7E2009BEAB1 /* LearningViewController.h */,
-				296A3AF316CFC7E2009BEAB1 /* LearningViewController.m */,
+				296A3AFD16CFE984009BEAB1 /* LearningBooksViewController.h */,
+				296A3AFE16CFE984009BEAB1 /* LearningBooksViewController.m */,
 				296A3ADE16CFC7E2009BEAB1 /* Supporting Files */,
+				296A3AFA16CFCE9E009BEAB1 /* LearningTableViewController.h */,
+				296A3AFB16CFCE9E009BEAB1 /* LearningTableViewController.m */,
 			);
 			path = LearningNote;
 			sourceTree = "<group>";
@@ -96,6 +109,10 @@
 		296A3ADE16CFC7E2009BEAB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				296A3B0616CFF0F6009BEAB1 /* page_empty.png */,
+				296A3B0416CFF0DC009BEAB1 /* page_empty@2x.png */,
+				296A3B0216CFEF77009BEAB1 /* globe.png */,
+				296A3B0016CFEF56009BEAB1 /* globe@2x.png */,
 				296A3ADF16CFC7E2009BEAB1 /* LearningNote-Info.plist */,
 				296A3AE016CFC7E2009BEAB1 /* InfoPlist.strings */,
 				296A3AE316CFC7E2009BEAB1 /* main.m */,
@@ -164,6 +181,10 @@
 				296A3AEC16CFC7E2009BEAB1 /* Default@2x.png in Resources */,
 				296A3AEE16CFC7E2009BEAB1 /* Default-568h@2x.png in Resources */,
 				296A3AF116CFC7E2009BEAB1 /* MainStoryboard.storyboard in Resources */,
+				296A3B0116CFEF56009BEAB1 /* globe@2x.png in Resources */,
+				296A3B0316CFEF77009BEAB1 /* globe.png in Resources */,
+				296A3B0516CFF0DC009BEAB1 /* page_empty@2x.png in Resources */,
+				296A3B0716CFF0F6009BEAB1 /* page_empty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +197,8 @@
 			files = (
 				296A3AE416CFC7E2009BEAB1 /* main.m in Sources */,
 				296A3AE816CFC7E2009BEAB1 /* LearningAppDelegate.m in Sources */,
-				296A3AF416CFC7E2009BEAB1 /* LearningViewController.m in Sources */,
+				296A3AFC16CFCE9E009BEAB1 /* LearningTableViewController.m in Sources */,
+				296A3AFF16CFE984009BEAB1 /* LearningBooksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
