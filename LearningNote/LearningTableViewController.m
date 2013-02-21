@@ -50,6 +50,8 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
     NSString *urlString = @"http://www.google.com/search?&q=";
     switch (indexPath.section * 10 + indexPath.row) {
         case 0:

@@ -50,6 +50,8 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
     NSString *urlString = @"http://www.amazon.co.jp/gp/search/?__mk_ja_JP=%83J%83%5E%83J%83i&url=search-alias%3D";
     urlString = [NSString stringWithFormat:@"%@%@", urlString, [self urlencode:@"books"]];
     urlString = [NSString stringWithFormat:@"%@%@", urlString, @"&field-keywords="];
